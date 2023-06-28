@@ -1,5 +1,5 @@
-# Axon - Persona Chat
-> ...
+# Axon - Persona AI
+> Core Persona modeling and agent AI.
 
 ## Run Local
 ```
