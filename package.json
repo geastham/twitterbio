@@ -1,7 +1,11 @@
 {
+  "name": "axon-persona-chat",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev:api": "next dev",
+    "dev:proxy": "local-ssl-proxy --source 3001 --target 3000",
+    "dev": "concurrently \"npm run dev:api\" \"npm run dev:proxy\"",
     "build": "next build",
     "start": "next start"
   },
